@@ -1,0 +1,48 @@
+/* حالت چاق - قرمز پررنگ */
+.obese {
+  color: #d32f2f;
+  font-weight: bold;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 8px;
+  border-right: 5px solid #d32f2f;
+  width: 50%;
+  margin: auto;
+}
+
+/* سایر وضعیت‌ها */
+.underweight {
+  
+  color: #502fd3;
+  font-weight: bold;
+  background-color: #edebff;
+  padding: 10px;
+  border-radius: 8px;
+  border-right: 5px solid #2f3fd3;
+    width: 50%;
+  margin: auto;
+}
+
+.normal {
+  
+  color: #2e7d32;
+  font-weight: bold;
+  background-color: #ebfff1;
+  padding: 10px;
+  border-radius: 8px;
+  border-right: 5px solid #2fd345;
+    width: 50%;
+  margin: auto;
+}
+
+.overweight {
+  
+  color: #ed6c02;
+  font-weight: bold;
+  background-color: #fffbeb;
+  padding: 10px;
+  border-radius: 8px;
+  border-right: 5px solid #d39c2f;
+    width: 50%;
+  margin: auto;
+}
