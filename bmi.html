@@ -8,29 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="h-20 bg-amber-300"></header>
+    <header class="h-24 bg-gradient-to-l from-purple-100 via-pink-100 via-yellow-100 via-green-100 to-blue-400"></header>
     <main>
-<section class="bg-indigo-100 w-[50%] m-auto flex justify-center mt-5 rounded-2xl flex-col pb-3">
-    <div class="text-center ">
-        <p>محاسبه شاخص توده بدن</p>
-    </div>
-    <div class="mt-3 text-center">
-        <div class="input">
+<section class="bg-gradient-to-r from-purple-100 via-pink-100 via-yellow-100 via-green-100 to-blue-400 w-[40%] m-auto flex justify-center text-center mt-7 rounded-xl flex-col gap-3 pb-3 pt-5">
+        <h1 class="font-bold text-2xl mb-8">محاسبه شاخص توده بدن</h1>
             <div class="hight mb-6">
-                <label for="inhight">قد</label>
-                <input type="number" id="height" class="bg-gray-100 rounded-2xl">
+                <label for="height">قد</label>
+                <input type="number" id="height" class="bg-gray-100 rounded-xl w-[50%] h-8 text-center placeholder:text-gray-300" placeholder="قد خود را به سانتیمتر وارد کنید">
             </div>
             <div class="wight mb-6">
-                 <label for="inwight">وزن</label>
-                <input type="number" id="weight" class="bg-gray-100 rounded-2xl">
+                 <label for="weight">وزن</label>
+                <input type="number" id="weight" class="bg-gray-100 rounded-xl w-[50%] h-8 text-center placeholder:text-gray-300" placeholder="وزن خود را به کیلوگرم وارد کنید">
             </div>
 
-        </div>
         <div class="sub">
-            <button class="bg-blue-400 rounded-2xl px-6 py-1 hover:bg-blue-200 transform transition-all duration-500 mb-4" onclick="calculateBMI()">محاسبه</button>
+            <button class="bg-gradient-to-l from-green-400 to-blue-300 rounded-xl px-6 py-1 hover:font-bold transform transition-all duration-100 mb-4" onclick="calculateBMI()">محاسبه</button>
         </div>
    
-    </div>
+
 
         <p id="result" class="text-center "></p>
 
